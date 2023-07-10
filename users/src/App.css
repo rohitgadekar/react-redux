@@ -1,0 +1,139 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 2s linear;
+  }
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.ip {
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+}
+
+button {
+  font-size: 1em;
+  width: 3em;
+  height: 3em;
+  border-radius: 3em;
+  background-color: transparent;
+  border-style: none;
+  border: 2px solid white;
+  color: white;
+}
+
+input {
+  border-radius: 1em;
+  font-size: 1em;
+  padding-left: 1em;
+  border-style: none;
+  height: 3em;
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+}
+
+input::placeholder {
+  color: white;
+}
+
+input:focus {
+  outline: none;
+}
+
+button:hover {
+  background-color: #00a6d4;
+  border-style: none;
+}
+
+
+
+.list {
+  display: flex;
+  flex-direction: row;
+  background-color: transparent;
+  margin: 2em;
+  border-radius: 1em;
+  border: 2px solid white;
+}
+
+.x {
+  background-color: #61dafb;
+  width: 1.5em;
+  height: 1.5em;
+  font-size: .9em;
+  border-style: none;
+}
+.x:hover {
+  border-style: none;
+  background-color: rgb(255, 0, 0);
+}
+
+table, tbody, tr,td,th {
+  padding: 1em;
+  /* border: 1px white solid; */
+  border-collapse: collapse;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: first baseline;
+}
+
+@media (max-width:500px) {
+  .wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+  .x {
+  width: 3em;
+  height: 1.5em;
+  font-size: 1.2em;
+  border-style: none;
+}
+}
+
+.logos {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  align-content: center;
+}
