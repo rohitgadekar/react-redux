@@ -38,6 +38,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1>react redux</h1>
+        <h2>add users to store</h2>
         <div className='logos'>
           <img src={logo} width={300} className="App-logo" alt="logo" />  <br></br>
         </div>

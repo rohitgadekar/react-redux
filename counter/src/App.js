@@ -11,6 +11,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1>react - redux</h1>
+        <h2>counter app</h2>
         <img src={logo} className="App-logo" alt="logo" />
         <div className='counter'>
           <button  onClick={() => {dispatch(increment())}}>+</button>
